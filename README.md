@@ -30,16 +30,16 @@ This function converts the given amount in Rupees (INR) to both USD and KWD.
 // dinars = 30
 ```
 
-# ToRupees(int256 amount, string memory currency)
+## ToRupees(int256 amount, string memory currency)
 This function converts the given amount in either USD or KWD to Rupees (INR).
 
-### Parameters
+## Parameters
 amount (int256): The amount in the specified currency. Must be non-negative.
 currency (string): The currency type, either "USD" or "KWD".
-# Returns
+## Returns
 rupees (int256): The equivalent amount in Rupees.
 
-### Error Handling
+## Error Handling
 - require Statements
 Ensures the input amounts are non-negative.
 
