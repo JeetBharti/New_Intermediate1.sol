@@ -49,11 +49,11 @@ Ensures the conversion results are non-negative.
 - revert Statement
 Handles unsupported currencies
 
-### Usage
+## Usage
 Deploy the contract on the Ethereum blockchain.
 Use the provided functions to perform currency conversions.
 
-### License
+## License
 This project is licensed under the MIT License.
 
 
