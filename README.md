@@ -41,15 +41,18 @@ rupees (int256): The equivalent amount in Rupees.
 
 ## Error Handling
 - require(): Used to validate inputs and conditions before executing the main logic. If the condition is not met, it reverts the transaction and provides an error message.
+  
 Example: require(rupees >= 0, "Invalid amount: Rupees cannot be negative");
 
 - assert(): Used to check for conditions that should never be false. It is mainly used for internal errors and to check invariants. If the condition is false, it consumes all remaining gas and reverts the transaction.
+
 Example: assert(dollars >= 0);
 
--revert(): Used to handle errors and provide a descriptive error message. It explicitly reverts the transaction.
+- revert(): Used to handle errors and provide a descriptive error message. It explicitly reverts the transaction.
+  
 Example: revert("Invalid currency: Supported currencies are USD and KWD");
 
-# By incorporating these error handlers, this contract ensures that invalid inputs and conditions are properly managed, providing clear error messages and preserving the integrity of the contract.
+### By incorporating these error handlers, this contract ensures that invalid inputs and conditions are properly managed, providing clear error messages and preserving the integrity of the contract.
 
 ## Usage
 Deploy the contract on the Ethereum blockchain.
